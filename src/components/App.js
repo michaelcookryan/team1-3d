@@ -1,6 +1,6 @@
 import React from "react";
-import { Switch, Route } from 'react-router-dom';
-import "./styles/App.css";
+import Chart from "./Chart"
+import "../styles/app.css";
 
 class App extends React.Component {
 
@@ -12,12 +12,7 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        <Header/>
-
-        {/* <Switch>
-          <Route path="/" exact component={Warehouses} />
-          <Route path="/warehouses" component={Warehouses} />
-        </Switch> */}
+        <Chart/>
 
       </div>
     );
