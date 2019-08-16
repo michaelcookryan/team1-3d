@@ -23,7 +23,7 @@ export default class Chart extends Component {
         ],
         datasets: [
           {
-            label: "Population",
+                label: "Industry Professionals Who Agreed ROI was an ICT Barrier in their Province",
             data: [61594, 181045, 153060, 106519, 105162, 95062],
 
             backgroundColor: [
@@ -71,7 +71,10 @@ export default class Chart extends Component {
               "rgba(75, 192, 192, 0.6)",
               "rgba(153, 102, 255, 0.6)",
               "rgba(255, 159, 64, 0.6)",
-              "rgba(255, 99, 132, 0.6)"
+              "rgba(255, 99, 132, 0.6)",
+                "rgba(75, 192, 192, 0.6)",
+                "rgba(255, 99, 132, 0.6)",
+                "rgba(153, 102, 255, 0.6)",
             ],
 
             borderWidth: 1,
@@ -93,7 +96,7 @@ export default class Chart extends Component {
           options={{
             title: {
               display: true,
-              text: "Chart 2",
+              text: "Industry Professionals Who Agreed Implementation was an ICT Barrier",
               fontSize: 25
             },
             yAxes: {
